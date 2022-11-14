@@ -1,0 +1,59 @@
+.table-container{
+    min-width: 400px;
+    font-size: .9em;
+    margin: 25px 0;
+    border-collapse: collapse;
+    box-sizing: 0 0 20px rgba(0,0,0,.15);
+    border-radius: 5px 5px 0 0;
+    overflow-x: scroll;
+    height: auto;
+    width: 95%;
+    margin: 1rem auto;
+    
+font-family: 'Montserrat', sans-serif;
+}
+.table-container thead tr{
+    background: #242424;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+.table-container th,td{
+    padding: 12px 15px;
+}
+.table-container tbody tr{
+    color: #000;
+    border-bottom: 1px solid #dddddd;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.1;
+}
+.table-container tbody tr:nth-of-type(even){
+    background: #f3f3f3;
+}
+
+
+.table-container tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+.table-container tbody tr td:first-child:hover{
+text-decoration: underline;
+color: #009879;
+transition: .2s all;
+}
+
+.table-container .tbl-btn{
+    outline: none;
+    border: none;
+    padding: .3rem 1rem;
+    color: #fff;
+    background: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
